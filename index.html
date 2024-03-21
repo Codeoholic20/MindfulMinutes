@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health & Wellness</title>
+    <link rel="stylesheet" href="/fontawesome/all.min.css"/>
+    <script src="/fontawesome/all.min.js"></script>
+    <link rel="stylesheet" href="style.css" />        
+</head>
+<body>
+    <header>
+        <div class="social">
+            <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="" class="text_logo">Mindfull Minutes</a>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+
+        <button class="toggle_btn"><i class="fas fa-bars"></i></button>
+    </header>
+    
+    <main>
+        <article>
+            <img src="/image/image_1.svg" alt="">
+            <div class="show_box">
+                <h1 class="show_title">Mental Health</h1>
+                <h3>Self care is self love</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium aliquam 
+                    possimus hic minima. Deserunt veniam voluptas recusandae molestias vel consequuntur 
+                    necessitatibus quisquam aperiam officia, mollitia, rem placeat cumque quia.
+                </p>
+                <div class="action">
+                    <a href="" class="contact">CONTACT</a>
+                    <a href="" class="read_more">READ MORE &rArr;</a>
+                </div>
+            </div>
+            <img src="/images/images_2.svg" alt="" />
+        </article>
+    </main>
+
+    <script>
+        const btn = document.querySelector('.toggle_btn')
+        btn.addEventListener("click", () =>
+        document.querySelector(".navigation").classList.toggle("active"));
+    </script>
+</body>
+</html>
